@@ -1,0 +1,75 @@
+header {
+    background: url(background.png);
+    height: 80vh;
+}
+
+main {
+    min-height: 1500px;
+}
+
+.navbar {
+    margin-top: 3em;
+    margin-bottom: 0 !important;
+    position: absolute;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navContainer {
+    min-width: 90vw;
+}
+
+.navbar-nav>li>a {
+    color: white;
+    background-color:transparent !important;
+    font-size: 125%;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+ul.nav a:visited {
+    background-color:transparent !important;
+}
+
+ul.nav a:hover {
+    border-bottom: 1px solid white; /* need good hover */
+    background-color:transparent !important;
+}
+    
+ul.nav a:active {
+    background-color:transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+button.navbar-toggle>span {
+    background-color: white;
+}
+
+header {
+    position: relative;
+}
+
+#headerContainer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+header>div>h1 {
+    font-size: 12vw;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+}
