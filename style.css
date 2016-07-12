@@ -7,8 +7,6 @@ main {
     
 }
 
-
-
 .navbar {
     margin-top: 2em;
     margin-bottom: 0 !important;
@@ -84,19 +82,20 @@ main>div>h1 {
     margin-top: 12em;
     padding: 15px;
     background-color: whitesmoke;
-    max-width: 80vw;
 }
 
 #sectionTwo {
     padding: 15px;
     background-color: whitesmoke;
-    max-width: 80vw;
 }
 
 #sectionThree {
     padding: 15px;
     background-color: whitesmoke;
-    max-width: 80vw;
+}
+
+.mainContent {
+    max-width: 75vw;
 }
 
 footer {
@@ -108,8 +107,4 @@ footer {
 
 footer>div>h1 {
     font-size: 125px;
-}
-
-.mainContent {
-    
 }
