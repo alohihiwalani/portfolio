@@ -4,8 +4,10 @@ header {
 }
 
 main {
-    min-height: 1500px;
+    
 }
+
+
 
 .navbar {
     margin-top: 2em;
@@ -72,4 +74,42 @@ header>div>h1 {
     bottom: 40px;
     right: 40px;
     z-index: 100;
+}
+
+main>div>h1 {
+    text-align: center;
+}
+
+#sectionOne {
+    margin-top: 10em;
+    padding: 15px;
+    background-color: whitesmoke;
+    max-width: 80vw;
+}
+
+#sectionTwo {
+    padding: 15px;
+    background-color: whitesmoke;
+    max-width: 80vw;
+}
+
+#sectionThree {
+    padding: 15px;
+    background-color: whitesmoke;
+    max-width: 80vw;
+}
+
+footer {
+    background: url(background.png);
+    min-height: 15vh;
+    color: white;
+    text-align: right;
+}
+
+footer>div>h1 {
+    font-size: 125px;
+}
+
+.mainContent {
+    
 }
