@@ -26,7 +26,7 @@ main {
     color: white;
     background-color:transparent !important;
     font-size: 125%;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    /* font-family: Futura, "Trebuchet MS", Arial, sans-serif; */
 }
 
 ul.nav a:visited {
@@ -81,12 +81,15 @@ main>div>h1 {
 #sectionOne {
     margin-top: 12em;
     padding: 15px;
-    background-color: whitesmoke;
+}
+
+#sectionOne>p {
+    font-size: 50px;
 }
 
 #sectionTwo {
+    margin-top: 10em;
     padding: 15px;
-    background-color: whitesmoke;
 }
 
 #sectionThree {
@@ -96,6 +99,13 @@ main>div>h1 {
 
 .mainContent {
     max-width: 75vw;
+    text-align: center;
+}
+
+.portImage {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
 }
 
 footer {
@@ -107,4 +117,12 @@ footer {
 
 footer>div>h1 {
     font-size: 125px;
+}
+
+.borderTop {
+    border-top: 1px solid grey;
+}
+
+h1 {
+    font-size: 500%;
 }
