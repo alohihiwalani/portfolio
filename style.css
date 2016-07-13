@@ -93,6 +93,7 @@ main>div>h1 {
 }
 
 #sectionThree {
+    margin-top: 10em;
     padding: 15px;
     background-color: whitesmoke;
 }
@@ -129,4 +130,17 @@ h1 {
 
 p {
     font-size: 4vw !important;
+}
+
+.imagedropshadow {
+    padding: 0px;
+    border: solid 1px lightgrey;
+    margin-top: 2em;
+}
+
+a:hover img.imagedropshadow {
+    border: solid 1px #CCC; 
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
 }
