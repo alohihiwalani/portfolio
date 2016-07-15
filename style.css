@@ -1,21 +1,12 @@
-header {
-    background: url(background.png);
-    height: 80vh;
-}
-
-main {
-    
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }
 
 .navbar {
     margin-top: 2em;
     margin-bottom: 0 !important;
     position: absolute;
-}
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
 }
 
 .navContainer {
@@ -26,7 +17,6 @@ main {
     color: white;
     background-color:transparent !important;
     font-size: 125%;
-    /* font-family: Futura, "Trebuchet MS", Arial, sans-serif; */
 }
 
 ul.nav a:visited {
@@ -34,7 +24,7 @@ ul.nav a:visited {
 }
 
 ul.nav a:hover {
-    border-bottom: 1px solid white; /* need good hover */
+    border-bottom: 1px solid white;
     background-color:transparent !important;
 }
     
@@ -51,6 +41,8 @@ button.navbar-toggle>span {
 }
 
 header {
+    background: url(background.png);
+    height: 80vh;
     position: relative;
 }
 
@@ -67,11 +59,12 @@ header>div>h1 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-.arrow {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 100;
+h1 {
+    font-size: 8vw;
+}
+
+p {
+    font-size: 4vw !important;
 }
 
 main>div>h1 {
@@ -92,44 +85,34 @@ main>div>h1 {
     padding: 15px;
 }
 
-#sectionThree {
-    margin-top: 10em;
-    padding: 15px;
-    background-color: whitesmoke;
-}
-
 .mainContent {
     max-width: 75vw;
     text-align: center;
 }
 
-.portImage {
-    padding: 1em;
-    padding-top: 2em;
-    margin: 0 auto;
-}
-
 footer {
     background: url(background.png);
-    min-height: 15vh;
+    min-height: 18vh;
     color: white;
+    
+}
+
+footer>div {
     text-align: right;
 }
 
-footer>div>h1 {
-    font-size: 12vh;
+footer>div>p {
+    vertical-align: middle;
 }
 
-.borderTop {
-    border-top: 1px solid grey;
+footer>div>a>img {
+    margin-top: 2.5em;
+    margin-right: 1.5em;
 }
 
-h1 {
-    font-size: 8vw;
-}
-
-p {
-    font-size: 4vw !important;
+footer>div>p {
+    text-align: left;
+    font-size: 2vw !important;
 }
 
 .imagedropshadow {
@@ -142,5 +125,42 @@ a:hover img.imagedropshadow {
     border: solid 1px #CCC; 
     -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
-        box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.magnify { 
+    transition: all .2s ease-in-out; 
+}
+.magnify:hover { 
+    transform: scale(1.2); 
+}
+
+.magnifyPf { 
+    transition: all .2s ease-in-out; 
+}
+.magnifyPf:hover { 
+    transform: scale(1.05); 
+}
+
+portImage {
+    padding: 1em;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+
+.borderTop {
+    border-top: 1px solid grey;
+}
+
+.copyright {
+    float: left;
+    vertical-align: middle;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
 }
