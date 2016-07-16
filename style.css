@@ -142,6 +142,13 @@ a:hover img.imagedropshadow {
     transform: scale(1.05); 
 }
 
+.magnifyArrow { 
+    transition: all .2s ease-in-out; 
+}
+.magnifyArrow:hover { 
+    transform: scale(1.1); 
+}
+
 portImage {
     padding: 1em;
     padding-top: 2em;
